@@ -29,7 +29,8 @@ export const NavBar = () => {
               className={style.navTab}
               key={index}
               onClick={() => console.log(item.name)}
-            >
+            href="#"
+                >
               {item.name}
             </a>
           );
