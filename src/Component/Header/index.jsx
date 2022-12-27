@@ -15,7 +15,7 @@ export const NavBar = () => {
   return (
     <div className={style.container}>
       <div className={style.leftContainer}>
-        <img src={Logo} className={style.icon} />
+        <img src={Logo} className={style.icon} alt="logo"/>
         <div>
           <p className={style.title}>Rubike</p>
           <hr className={style.underLine}></hr>
