@@ -10,12 +10,12 @@ export const BottomScreen = () => {
   const [error, setError] = useState("");
 
   function validEmail() {
-    const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    const re = new RegExp('^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$');
     return re.test(email);
   }
 
   function validPhone() {
-    const re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+    const re = new RegExp('^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$');
     return re.test(phone);
   }
 
