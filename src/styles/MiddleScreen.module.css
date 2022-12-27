@@ -1,0 +1,82 @@
+.container {
+  flex: 1;
+  width: 100%;
+}
+.topSubContainer {
+  background-color: white;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+}
+.middleSubContainer {
+  background-color: rgb(173, 38, 114);
+  height: 30vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.bottomSubContainer {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+/* middle top sub conatiner */
+.topSubContainerLeftcontainer {
+  width: 60%;
+  height: 100%;
+  padding-left: 255px;
+}
+.topSubContainerRightcontainer {
+  width: 40%;
+  height: 100%;
+}
+.topSubContainerLeftcontainerHeading {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.topSubContainerLeftcontainerdescription {
+  font-size: medium;
+  font-weight: 540;
+  font-size: 13px;
+  font-family: sans-serif;
+  word-spacing: 6px;
+}
+.topSubContainerRighthr {
+  width: 160px;
+  height: 3px;
+  background-color: rgb(173, 38, 114);
+  border: 0;
+  position: relative;
+  left: -115px;
+  top: 50px;
+}
+.topSubContainerRightImage {
+  height: 120px;
+  width: 240px;
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+.topSubContainerRightgreendiv {
+  height: 50px;
+  width: 170px;
+  background-color: rgba(0, 37, 0, 0.9);
+  position: relative;
+  z-index: 2;
+  left: 80px;
+  top: 20px;
+}
+.middleSubContainerAlignContainer {
+  width: 70%;
+  font-family: sans-serif;
+  word-spacing: 2px;
+  font-size: 15px;
+  margin-left: 250px;
+}

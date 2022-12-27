@@ -1,0 +1,65 @@
+.container {
+  height: 70vh;
+  background-color: aqua;
+  flex: 1;
+  background-image: url("../Assets/wall1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1,
+h2,
+h3 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.backDrop {
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+  flex: 1;
+}
+.techText {
+  font-size: 60px;
+  position: relative;
+  left: 30px;
+  font-weight: 900;
+}
+.forText {
+  font-weight: 400;
+  display: inline;
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
+.teensText {
+  display: inline;
+  font-size: 40px;
+  position: relative;
+  top: -20px;
+  font-weight: 900;
+  left: 10px;
+  letter-spacing: 3px;
+}
+.subContainer_1 {
+  width: 300px;
+  position: relative;
+  left: 260px;
+  top: 100px;
+  z-index: 50;
+}
+.subContainer_2 {
+  width: 350px;
+  height: 90px;
+  display: flex;
+  position: relative;
+  left: 220px;
+  top: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 50;
+}

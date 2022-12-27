@@ -1,0 +1,111 @@
+.box1 {
+  height: 250px;
+  width: 150px;
+  position: absolute;
+  z-index: 15;
+  background-color: white;
+  border-radius: 20px;
+}
+.shadowBox1 {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  rotate: -2deg;
+  left: -5px;
+  margin-top: 75px;
+  box-shadow: 9px 0 5px -2px #888;
+  border-radius: 5px;
+}
+.colorDiv1 {
+  height: 35px;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  position: absolute;
+  bottom: 0px;
+}
+.box2 {
+  height: 250px;
+  width: 150px;
+  position: absolute;
+  z-index: 15;
+  background-color: white;
+  border-radius: 20px;
+}
+.shadowBox2 {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  rotate: 2deg;
+  left: -5px;
+  margin-top: 25px;
+  box-shadow: 9px 0 5px -2px #888;
+  border-radius: 5px;
+}
+.colorDiv2 {
+  height: 35px;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  position: absolute;
+}
+
+.upIndexContainer {
+  height: 55px;
+  width: 55px;
+  border-radius: 25.5px;
+  background-color: rgb(224, 224, 224);
+  position: absolute;
+  z-index: 2;
+  left: 50px;
+  top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.downIndexContainer {
+  height: 55px;
+  width: 55px;
+  border-radius: 25.5px;
+  background-color: rgb(224, 224, 224);
+  position: absolute;
+  z-index: 2;
+  left: 50px;
+  bottom: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indexText {
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.upcardLogo {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.downcardLogo {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 145px;
+  left: 40px;
+}
+.upcardText {
+  position: absolute;
+  top: 130px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 10px;
+  font-weight: 700;
+}
+.downcardText {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 10px;
+  font-weight: 700;
+}
