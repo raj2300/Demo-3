@@ -10,11 +10,13 @@ export const BottomScreen = () => {
   const [error, setError] = useState("");
 
   function validEmail() {
+    //eslint-disable-next-line
     const re = new RegExp('^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$');
     return re.test(email);
   }
 
   function validPhone() {
+    //eslint-disable-next-line
     const re = new RegExp('^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$');
     return re.test(phone);
   }
