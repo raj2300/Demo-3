@@ -12,7 +12,7 @@ function Card({ type, color, index, logoUrl, description }) {
               </p>
             </div>
             <div className="colorDiv1" style={{ backgroundColor: color }}></div>
-            <img className="downcardLogo" src={logoUrl} />
+            <img className="downcardLogo" src={logoUrl} alt="logo" />
             <p className="downcardText"> {description}</p>
           </div>
           <div className="shadowBox1" />
@@ -25,7 +25,7 @@ function Card({ type, color, index, logoUrl, description }) {
                 {index}
               </p>
             </div>
-            <img className="upcardLogo" src={logoUrl} />
+            <img className="upcardLogo" src={logoUrl} alt="logo"/>
             <p className="upcardText">{description}</p>
             <div className="colorDiv2" style={{ backgroundColor: color }}></div>
           </div>
